@@ -7,14 +7,18 @@
     <title>J.L.P.</title> <!--iniciales de JOSE LUIS PEDERNETI en el titulo del documento-->
     <link rel="icon" type="image/x-icon" href="/ICON/favicon.ico"> <!-- generado con https://www.favicon.cc/ -->
     <link rel="stylesheet" href="/CSS/paginas.css">
-
+    <script type="text/javascript" src="js/overlib.js"><!-- overLIB (c) Erik Bosrup
+    --></script>
+    <script type="text/javascript" src="/js/codigo.js"></script>
 </head>
 
 <body>
   <header>
     <h1>Curriculum Vitae</h1>
   </header>
-    <img class="foto" src="/IMAGE/JLP.jpg" alt="foto de José Luis Pederneti" >
+    <a href="#" onmouseover="return overlib('José Luis Pederneti.');" onmouseout="return nd();">
+      <img class="foto" src="/IMAGE/JLP.jpg" alt="foto de José Luis Pederneti" >
+    </a>
 
         <!--creo una lista y le saco los item de cada uno de los elementos-->    
         <ul style="list-style-type:none" class="paginas">
@@ -31,6 +35,9 @@
          
           </div>
 
+        </div>
+        <div id="seccion" style="width:150px; height:60px; border:thin solid silver">
+          Sección de contenidos...
         </div>
 </body>
 </html>
