@@ -1,0 +1,64 @@
+html {
+    font-family: Arial;
+  }
+body {
+    margin: 0;
+}
+  header {
+    background-color: #098ce4;
+    height: 100px;
+}
+h1 {    
+    text-align: center;
+    line-height: 100px;
+    color: white;
+    margin: 0;
+    font-size: 80px;
+
+}
+.paginas {
+    padding-left: 150px;
+    /*font-family: Verdana;  /*lecambio la fuente de las letras a la lista*/ 
+    font-size: 20px;
+    width: 250px;
+  }
+
+  .paginas a {
+    background-color: #eee;
+    color: black;
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+  }
+  
+  .paginas a:hover {
+    background-color: #ccc;
+  }
+  
+  .paginas a.active {
+    background-color: #6fb6e6;
+    color: white;
+  }
+  .foto {
+    padding-left: 150px;
+  }
+
+  .contenedor {
+    position: absolute;
+    top: 252px;
+    left: 400px;
+    right: 0;
+    height: 300px;
+    border: 2px dashed rgb(86, 187, 218);
+    background-color: #6fb6e6;
+  }
+
+  .posicion {
+        color: white;
+        width: auto;
+        height: auto;
+        position: absolute;
+        margin-left: 20px;
+        text-align: justify;
+        font-size: 25px;
+  }
