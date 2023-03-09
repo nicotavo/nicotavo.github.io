@@ -14,13 +14,36 @@ h1 {
     color: white;
     margin: 0;
     font-size: 80px;
+    text-decoration: underline;
 
 }
+
+.foto{
+
+  padding-right: 0px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 150px;
+  border-radius: 15px;
+  border: 10px solid silver;
+ 
+}
+#Nombre{
+  padding-right: 0px;
+  width:160px;
+  border:5px solid silver;
+  border-radius: 15px;
+  justify-content: center;
+
+}
+
 .paginas {
     padding-left: 150px;
-    /*font-family: Verdana;  /*lecambio la fuente de las letras a la lista*/ 
+    /*font-family: Verdana;  lecambio la fuente de las letras a la lista*/ 
     font-size: 20px;
     width: 250px;
+    
   }
 
   .paginas a {
@@ -39,16 +62,14 @@ h1 {
     background-color: #6fb6e6;
     color: white;
   }
-  .foto {
-    padding-left: 150px;
-  }
-
+  
   .contenedor {
     position: absolute;
     top: 252px;
     left: 400px;
     right: 0;
     height: 300px;
+    border-radius: 15px;
     border: 2px dashed rgb(86, 187, 218);
     background-color: #6fb6e6;
   }

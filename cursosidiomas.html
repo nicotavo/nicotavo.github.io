@@ -8,14 +8,19 @@
     <link rel="icon" type="image/x-icon" href="/ICON/favicon.ico"> <!-- generado con https://www.favicon.cc/ -->
     <link rel="stylesheet" href="/CSS/paginas.css">
 
+    <script type="text/javascript" src="/JS/codigo.js"></script>
+    
+
 </head>
 <body>
 
     <header>
         <h1>Curriculum Vitae</h1>
      </header>
-    <img class="foto" src="/IMAGE/JLP.jpg" alt="foto de José Luis Pederneti">
-
+    
+     <img  class="foto" onMouseEnter="alert('Foto de Jose L. Pederneti')"  src="/IMAGE/JLP.jpg" alt="foto de José Luis Pederneti" >
+     <input type="text" id="Nombre" onMouseOver="quienEs()" onMouseOut="nada()">
+  
       <!--creo una lista y le saco los item de cada uno de los elementos-->      
     <ul style="list-style-type:none" class="paginas">
       <li><a href="/index.html">Inicio</a></li>
